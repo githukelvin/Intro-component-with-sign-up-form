@@ -1,0 +1,165 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(images/bg-intro-desktop.png);
+	background-color: hsl(0, 100%, 74%);
+	font-family:'poppins';
+}
+main{
+	display: flex;
+	align-items: center;
+}
+.head{
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.main{
+	width: 100%;
+	height:100vh;
+	margin-left: 25%;
+	margin-top:10%;
+
+
+}
+p{
+	color: #fff;
+	font-family: 'poppins';
+	line-height: 1.5;
+	font-weight: 500;
+	font-size: 20px;
+	text-indent: 3;
+}
+.intro{
+	background-color: transparent;
+	float: left;
+width: 400px;
+	height: 350px;
+	margin-top:10%;
+	padding-right: 3%;
+
+}
+
+.claim{
+	background-color: #fff;
+	float: left;
+	width: 400px;
+	height: 380px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	align-items: center;
+}
+.second{
+	float: left;
+	background-color: transparent;
+	width: 400px;
+	height: 350px;
+}
+.form{
+	
+	margin-left: 10%;
+}
+input{
+	margin-top: 20px;
+	margin-bottom: 5px;
+	width: 80%;
+	height: 50px;
+	border: 1px solid hsl(246, 25%, 77%);
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.days{
+	background-color: hsl(248, 32%, 49%);
+	box-sizing: border-box;
+	border-radius: 5px;
+	height:40px;
+	width:400px;
+	margin-bottom: 20px;
+}
+.terms{
+	font-size: 10px;
+	margin-left: 10%;
+	color:  hsl(246, 25%, 77%);
+	line-height: 5;
+
+}
+.par{
+	font-family:'poppins';
+	font-weight: 400;
+	line-height:2;
+	margin-left: 20%;
+	color:#fff;
+	font-size:15px;
+	padding-top: 5px;
+}
+
+.btn{
+	width:80%;
+	height: 40px;
+	background-color:hsl(154, 59%, 51%) ;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'poppins';
+	cursor: pointer;
+}
+.terms strong{
+
+	color: hsl(0, 100%, 74%) ;
+}
+
+@media (max-width:400px){
+
+	body{
+		width: 100%;
+
+	}
+.main{
+	width: 90%;
+	align-items: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 50px;
+
+}
+.second{
+	width: 100%;
+
+}
+.intro{
+	width: 100%;
+}
+.claim{
+	width: 100%;
+	height: 400px;
+}
+.days{
+	width: 100%;
+	height: 25%;
+}
+p{
+	text-orientation:zig-zag;
+	text-align-last: center;
+}
+.terms{
+	text-align-last: center;
+}
+.par{
+	width: 60%;
+	padding-top: 10px;
+	font-size:15px;
+}
+.terms{
+	line-height: 3;
+}
+
+}
