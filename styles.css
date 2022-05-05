@@ -23,9 +23,9 @@ main{
 
 .main{
 	width: 100%;
-	height:100vh;
-	margin-left: 25%;
-	margin-top:10%;
+	height:85vh;
+	margin-left: 5%;
+	margin-top:13%;
 
 
 }
@@ -36,11 +36,12 @@ p{
 	font-weight: 400;
 	font-size: 17px;
 	text-indent: 3;
+
 }
 .intro{
 	background-color: transparent;
 	float: left;
-width: 400px;
+	width: 600px;
 	height: 350px;
 	margin-top:10%;
 	padding-right: 3%;
@@ -50,8 +51,8 @@ width: 400px;
 .claim{
 	background-color: #fff;
 	float: left;
-	width: 400px;
-	height: 380px;
+	width: 700px;
+	height: 500px;
 	box-sizing: border-box;
 	border-radius: 10px;
 	align-items: center;
@@ -59,12 +60,13 @@ width: 400px;
 .second{
 	float: left;
 	background-color: transparent;
-	width: 400px;
+	width: 700px;
 	height: 350px;
 }
 .form{
 	
-	margin-left: 10%;
+	margin-left: 15%;
+	margin-top: 50px;
 }
 input{
 	margin-top: 20px;
@@ -95,14 +97,19 @@ input[type="password"]{
 	box-sizing: border-box;
 	border-radius: 5px;
 	height:40px;
-	width:400px;
+	width:700px;
 	margin-bottom: 20px;
+    box-shadow:0px 7px 0px rgba(0, 0, 0, 0.19);
+
+
+
 }
 .terms{
 	font-size: 10px;
 	margin-left: 10%;
 	color:  hsl(246, 25%, 77%);
 	line-height: 5;
+	text-indent: 120px;
 
 }
 .par{
@@ -127,13 +134,22 @@ input[type="password"]{
 	font-weight: 700;
 	font-family: 'Poppins', sans-serif;
 	cursor: pointer;
+	margin-top: 20px;
 }
 .terms strong{
 
 	color: hsl(0, 100%, 74%) ;
 }
+footer p{
+	padding-top: 50px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
 
-@media (max-width:400px){
+}
+
+@media (max-width:500px){
 
 	body{
 		width: 100%;
@@ -151,23 +167,30 @@ input[type="password"]{
 	width: 100%;
 
 }
+.head{
+	text-align: center;
+	line-height: 1;
+	font-size: 15px;
+}
 .intro{
 	width: 100%;
+
+}
+p{
+	width: 100%;
+	text-align: center;
 }
 .claim{
 	width: 100%;
-	height: 400px;
+	height: 500px;
 }
 .days{
 	width: 100%;
 	height: 25%;
 }
-p{
-	text-orientation:zig-zag;
-	text-align-last: center;
-}
 .terms{
-	text-align-last: center;
+	text-align: center;
+	text-indent: 20px;
 }
 .par{
 	width: 60%;
