@@ -195,6 +195,8 @@ p{
 .terms{
 	text-align: center;
 	text-indent: 20px;
+	width: 70%;
+	text-align-last: center;
 }
 .par{
 	width: 60%;
